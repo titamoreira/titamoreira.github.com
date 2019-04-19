@@ -1,0 +1,140 @@
+/* ===============
+  GRID
+=============== */
+
+$columns: 12;
+$container-base-width: 1200px;
+$container-offset: $base-spacing-unit;
+
+$desktop: 992px;
+$tablet:  720px;
+$mobile:  576px;
+
+$mq: ( $desktop:$columns, $tablet:$columns, $mobile:$columns );
+
+.o-container {
+  width: 100%;
+  max-width: $container-base-width;
+  padding-left: $container-offset;
+  padding-right: $container-offset;
+  margin: 0 auto;
+}
+
+.o-container-full {
+  max-width: 100%;
+  padding-left: $container-offset;
+  padding-right: $container-offset;
+  margin: 0 auto;
+}
+
+.o-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  flex-direction: row;
+  margin-left: ($base-spacing-unit * -1);
+  margin-right: ($base-spacing-unit * -1);
+}
+
+.o-col {
+  padding-left: $base-spacing-unit;
+  padding-right: $base-spacing-unit;
+}
+
+[class^="o-col-"] {
+  flex: auto;
+}
+
+
+@for $i from 0 through $columns {
+  .o-col-#{$i} {
+    width: percentage( $i / $columns );
+  }
+}
+
+@for $i from 0 through $columns {
+  .push-#{$i} {
+    margin-left: percentage( $i / $columns );
+  }
+}
+
+@for $i from 0 through $columns {
+  .pull-#{$i} {
+    margin-right: percentage( $i / $columns );
+  }
+}
+
+
+@each $key, $val in $mq {
+
+
+  // M O B I L E
+  @media(min-width: $mobile) {
+
+    @for $i from 0 through $columns {
+      .o-col-m-#{$i} {
+        width: percentage( $i / $columns );
+      }
+    }  
+
+    @for $i from 0 through $columns {
+      .push-m-#{$i} {
+        margin-left: percentage( $i / $columns );
+      }
+    }
+
+    @for $i from 0 through $columns {
+      .pull-m-#{$i} {
+        margin-right: percentage( $i / $columns );
+      }
+    }
+  }
+
+
+  // T A B L E T
+  @media(min-width: $tablet) {
+
+    @for $i from 0 through $columns {
+      .o-col-t-#{$i} {
+        width: percentage( $i / $columns );
+      }
+    }  
+
+    @for $i from 0 through $columns {
+      .push-t-#{$i} {
+        margin-left: percentage( $i / $columns );
+      }
+    }
+
+    @for $i from 0 through $columns {
+      .pull-t-#{$i} {
+        margin-right: percentage( $i / $columns );
+      }
+    }
+  }
+
+
+  // D E S K T O P
+  @media(min-width: $desktop) {
+
+    @for $i from 0 through $columns {
+      .o-col-d-#{$i} {
+        width: percentage( $i / $columns );
+      }
+    }  
+
+    @for $i from 0 through $columns {
+      .push-d-#{$i} {
+        margin-left: percentage( $i / $columns );
+      }
+    }
+
+    @for $i from 0 through $columns {
+      .pull-d-#{$i} {
+        margin-right: percentage( $i / $columns );
+      }
+    }
+  }
+
+
+}

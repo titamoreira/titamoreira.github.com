@@ -1,0 +1,36 @@
+---
+layout: page
+title: Post Archives
+image: 20.png
+permalink: /tags/
+---
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_words = site_tags | split:',' | sort %}
+
+<!-- begin c-tags -->
+<div class="c-tags">
+  <ul class="c-tags__list u-list-reset">
+  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+    <li class="c-tags__item"><a href="#{{ this_word | cgi_escape }}" class="c-tags__link">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></a></li>
+  {% endunless %}{% endfor %}
+  </ul>
+
+  <hr>
+
+  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+  <h2 class="c-tags__title" id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
+  <div class="c-tags__group">
+    {% for post in site.tags[this_word] %}{% if post.title != null %}
+    <div class="c-tag__item">
+      <a class="c-tag__image" href="{{ post.url }}"  style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})"></a>
+      <div class="c-tag__text">
+        <a class="c-tag__link" href="{{ post.url }}">{{ post.title }}</a><br>
+        <small><span class="c-tag__date">{{ post.date | date_to_string }}</span></small>
+      </div>
+    </div>
+    {% endif %}{% endfor %}
+  </div>
+  {% endunless %}{% endfor %}
+</div> <!-- end c-tags -->

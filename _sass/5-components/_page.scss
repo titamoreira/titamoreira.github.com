@@ -1,0 +1,27 @@
+.c-page__image {
+  min-height: 230px;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #F9F7FF;
+  &:after {
+    content: "";
+    display: table;
+    width: 100%;
+    padding-top: 50%;
+  }
+}
+
+.c-page__title {
+  margin-bottom: 30px;
+  font-size: 27px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media only screen and (min-width: 576px) {
+  .c-page__title {
+    font-size: 33px;
+  }
+}

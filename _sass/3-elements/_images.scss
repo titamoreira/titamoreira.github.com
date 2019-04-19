@@ -1,0 +1,19 @@
+/* ===============
+	IMAGES
+=============== */
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+
+  &+em {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: $blue-dark;
+  }
+}

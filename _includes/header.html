@@ -1,0 +1,59 @@
+<div class="o-container">
+  <div class="o-row">
+    <!-- begin c-header -->
+    <header class="c-header o-col">
+      <div class="c-logo">
+        <a class="c-logo__link" href="/">
+        {%if site.logo %}
+          <img class="c-logo__image" src="{{ site.baseurl }}/images/{{ site.logo }}" alt="{{ site.title }}">
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+        </a>
+      </div>
+
+      <nav class="c-nav">
+        
+        <div class="c-nav__box">
+          <div class="c-nav__close" data-icon="ei-close" data-size="s"></div>
+          <div class="c-nav__title">Menu</div>
+          <ul class="c-nav__list u-list-reset">
+            <li class="c-nav__item">
+              <a href="/" class="c-nav__link">Home</a>
+            </li>
+            {% for page in site.pages %}
+              {% unless page.name == 'tags.html' or page.name == '404.html' %}
+            {% if page.title %}
+            <li class="c-nav__item">
+              <a href="{{ page.url | prepend: site.baseurl }}" class="c-nav__link">{{ page.title }}</a>
+            </li>
+            {% endif %}
+              {% endunless %}
+            {% endfor %}
+          </ul>
+          {% include contact-link.html %}
+        </div>
+
+        <div class="c-search">
+          <div class="c-search__close" data-icon="ei-close" data-size="s"></div>
+          <div class="c-search__box">
+            <div class="c-search__title">Search</div>
+            <label for="js-search-input" class="u-screen-reader-text">Search for Blog</label>
+            <input type="text" id="js-search-input" class="c-search__text" autocomplete="off" placeholder="Type to search">
+            <br>
+          </div>
+          <ul id="js-results-container" class="c-search-results-list"></ul>
+        </div>
+
+        <div class="c-nav__button">
+          <div class="c-nav__icon" data-icon="ei-navicon" data-size="s"></div>
+          <div class="c-search__icon" data-icon="ei-search" data-size="s"></div>
+        </div>
+
+      </nav>
+
+      <div class="c-header__overlay"></div>
+    </header>
+    <!-- end c-header -->
+  </div>
+</div>

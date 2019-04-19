@@ -1,0 +1,52 @@
+{% if site.hero.hero-slider != null %}
+  {% assign slider_tags = site.hero.hero-slider %}
+<div class="o-container">
+  <div class="o-row">
+    <div class="o-col o-col-12">
+      <!-- begin c-hero -->
+      <div class="c-hero">
+        <div class="c-hero-slider">
+          {% for post in site.tags.[slider_tags] limit: 3 %}
+            {% if post.title != null %}
+          <div class="c-hero-slider__item">
+            <div class="c-hero-slider__image" style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})">
+              <div class="c-hero-slider__box">
+                <div class="c-hero-slider__content">
+                  <div class="c-hero-slider__tags">
+                    {% for tag in post.tags %}
+                    <a href="{{ site.baseurl }}/tags#{{tag}}">{{tag}}</a>
+                    {% endfor %}
+                  </div>
+                  <h1 class="c-hero-slider__title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h1>
+                  <div class="c-hero-slider__meta">
+                    <span class="c-article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>&nbsp;&nbsp;—&nbsp;
+                    <span class="c-articel__author">{{ site.author.name }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <!-- end c-hero -->
+    </div>
+  </div>
+</div>
+{% else %}
+<div class="o-container">
+  <!-- begin c-hero -->
+  <div class="c-hero c-hero-text">
+    <div class="o-row">
+      <div class="o-col o-col-12">
+        <div class="c-hero__content">
+          <div class="c-hero__suphead">{{ site.hero.hero-suphead }}</div>
+          <h1 class="c-hero__title">{{ site.hero.hero-title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end c-hero -->
+</div>
+{% endif %}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+  <!-- begin c-canvas -->
+  <div class="c-canvas">
+    {% include header.html %}
+    <!-- begin o-content -->
+    <main class="o-content" aria-label="Content">
+      <!-- begin o-wrapper -->
+      {% if page.url == '/' %}
+        {% assign class = 'is-home' %}
+      <div class="o-wrapper {{ class }}">
+        {% else %}
+      <div class="o-wrapper">
+        {% endif %}
+
+        {{ content }}
+
+      </div>
+      <!-- end o-wrapper -->
+    </main> 
+    <!-- end o-content -->
+    <div class="c-top" title="Top" data-icon="ei-chevron-up" data-size="s"></div>
+    {% include footer.html %}
+  </div>
+  <!-- end .c-canvas -->
+  {% include javascripts.html %}
+</body>
+
+</html>

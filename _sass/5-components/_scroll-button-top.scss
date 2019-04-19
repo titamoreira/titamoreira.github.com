@@ -1,0 +1,30 @@
+.c-top {
+  position: fixed;
+  bottom: 25px;
+  right: -100px;
+	z-index: 1;
+	width: 40px;
+  height: 40px;
+	background-color: $blue-dark;
+	color: $white-color;
+	cursor: pointer;
+	transition: all .25s ease;
+	opacity: .5;
+  
+  &.is-active {
+    right: 30px;
+  }
+  
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .c-top {
+    bottom: 40px;
+    &.is-active {
+      right: 40px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+/* ===============
+	COLORS
+=============== */
+
+$brand-color: #FF94C5; // Primary color
+$blue-dark: #1D2530; // Secondary color
+$white-color: #FFFFFF;
+$gray: #BDBDBD;
+$light-gray: #F9F7FF;
+
+
+// Background Colors
+$background: $white-color;
+
+
+// Body Color
+$text-color: rgba(57, 64, 79, 80);
+
+
+// Headings
+$heading-font-color: $blue-dark;
+
+
+// Links
+$link-color: $brand-color;
+$link-color-hover: darken($link-color, 15%);
+
+
+// Button
+$button-color: $white-color;
+$button-background-color: $brand-color;
+
+// Border
+$border-color: #FBF7FF;

@@ -1,0 +1,444 @@
+.c-post {
+  margin-bottom: 30px;
+  .c-post__head {
+    margin-bottom: 30px;
+    text-align: center;
+
+    .c-post__title {
+      margin-bottom: 10px;
+      font-size: 27px;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    .c-post__tag {
+      margin-bottom: 5px;
+      font-family: 'Source Code Pro', sans-serif;
+      font-size: 12px;
+      text-align: center;
+      text-transform: uppercase;
+      .c-tag {
+        &:after {
+          content: ',';
+          font-family: 'Source Code Pro', sans-serif;
+          display: inline-block;
+        }
+        &:last-child {
+          &:after {
+            content: '';
+            display: inline-block;
+          }
+        }
+      }
+    }
+
+    .c-post__info {
+      font-family: 'Source Code Pro', sans-serif;
+      font-size: 12px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #a9a9a9;
+
+      .c-post__date,
+      .c-post__words {
+        position: relative;
+        display: inline-block;
+        margin-right: 10px;
+        padding-right: 10px;
+        margin-bottom: 0;
+        &:after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          right: 0;
+          transform: translateY(-50%);
+          display: block;
+          width: 3px;
+          height: 3px;
+          margin-right: -3px;
+          border-radius: 50%;
+          background: #a9a9a9;
+        }
+        &:last-child {
+          margin-right: 0;
+          padding-right: 0;
+          &:after {
+            content: none;
+          }
+        }
+      }
+    }
+  }
+  .c-separater {
+    margin: 0;
+  }
+}
+
+.c-post__image {
+  min-height: 230px;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #F9F7FF;
+  &:after {
+    content: "";
+    display: table;
+    width: 100%;
+    padding-top: 50%;
+  }
+}
+
+.c-post__content {
+  margin-bottom: 30px;
+}
+
+.c-post__share {
+  display: flex;
+  .c-share__title {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .c-share__list {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+    &:after {
+      content: "";
+      position: absolute;
+      right: 0;
+      display: block;
+      width: calc(100% - 150px);
+      height: 2px;
+      background: $border-color;
+    }
+    .c-share__item {
+      display: inline-block;
+      margin: 0 5px;
+      line-height: 0;
+    }
+  }
+}
+
+.c-post__navigation {
+  display: flex;
+  align-items: baseline;
+  width: calc(100% - 10px);
+  margin-bottom: 30px;
+
+  .c-prev, .c-next {
+    flex: 1 0 50%;
+    
+    .c-post__nav__image {
+      position: relative;
+      display: block;
+      margin-bottom: 10px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: $light-gray;
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: $global-transition;
+        background: transparent;
+      }
+      &:after {
+        content: "";
+        display: table;
+        padding-top: 75%;
+      }
+      &:hover {
+        .c-prev__post,
+        .c-next__post {
+          color: $brand-color;
+        }
+        &:before {
+          color: $brand-color;
+          background: rgba(0,0,0,0.1);
+        }
+      }
+
+      .c-prev__post,
+      .c-next__post {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        font-family: 'Source Code Pro', sans-serif;
+        font-size: 12px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: $blue-dark;
+        background: $white-color;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+        transition: $global-transition;
+
+        span {
+          margin: 0 10px;
+        }
+
+        &:hover {
+          color: $brand-color;
+          transition: $global-transition;
+        }
+      }
+
+      .c-prev__post {
+        left: 0;
+        padding: 8px 20px 8px 8px;
+      }
+
+      .c-next__post {
+        right: 0;
+        padding: 8px 8px 8px 20px;
+      }
+    }
+
+    .c-post__nav__tags {
+      margin-bottom: 5px;
+      font-family: 'Source Code Pro', sans-serif;
+      font-size: 12px;
+      text-align: center;
+      text-transform: uppercase;
+      .c-tag {
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .c-post__nav__title {
+      margin-bottom: 10px;
+      font-size: 18px;
+      text-transform: uppercase;
+      text-align: center;
+      a {
+        color: $blue-dark;
+        &:hover {
+          color: darken($blue-dark, 15%);
+        }
+      }
+    }
+  }
+
+  .c-prev {
+    margin-right: 5px;
+  }
+
+  .c-next {
+    margin-left: 5px;
+  }
+
+  .c-prev__excerpt {
+    text-align: center;
+  }
+
+  .c-next__excerpt {
+    text-align: center;
+  }
+}
+
+.c-comments {
+  margin-top: 30px;
+}
+
+// SIDEBAR
+.c-sidebar {
+  padding: 0 30px;
+}
+
+.c-widget {
+  margin-bottom: 40px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.c-widget__title {
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  &:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 2px;
+    background: $gray;
+  }
+}
+
+.c-widget-author {
+  text-align: center;
+
+  .c-contact__list {
+    .c-contact__item {
+      display: inline-block;
+      margin: 0 5px;
+      a {
+        color: $blue-dark;
+      }
+    }
+  }
+}
+
+.c-author-image-box {
+  width: 170px;
+  height: 170px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.c-author__name {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.c-author__bio {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+
+.c-recent-posts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 15px;
+
+  &:hover{
+    .c-recent__image {
+      &::before {
+        background: rgba(0, 0, 0, .10);
+        transition: all .5s ease;
+      }
+    }
+
+    .c-recent__content {
+      .c-recent__title {
+        a {
+          color: $link-color-hover;
+        }
+      }
+    }
+  }
+
+  .c-recent__header {
+    margin-right: 15px;
+  }
+
+  .c-recent__image {
+    position: relative;
+    display: block;
+    width: 110px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &:after {
+      content: "";
+      display: table;
+      padding-top: 20%;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: all .5s ease;
+    }
+
+  }
+
+  .c-recent__content {
+    margin: 5px 0;
+
+    .c-recent__title {
+      font-family: 'Source Code Pro', sans-serif;
+      margin-bottom: 0;
+      a {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 300;
+        color: $blue-dark;
+      }
+    }
+
+    .c-recent__date {
+      font-size: 14px;
+      color: #a9a9a9;
+    }
+  }
+}
+
+.c-widget-instagram {
+  .c-instagram-grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    .c-instagram-item {
+      width: 33.333%;
+      padding: 2px;
+    }
+  }
+}
+
+.c-tags__list {
+  display: flex;
+  flex-wrap: wrap;
+  
+  .c-tags__item {
+    margin: 0 12px 12px 0;
+  }
+
+  .c-tags__link {
+    display: inline-block;
+    padding: 7px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    background: #F4F4F4;
+    color: #9E9E9E;
+    transition: $global-transition;
+    &:hover {
+      background: $brand-color;
+      color: $white-color;
+      transition: $global-transition;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .c-post {
+    .c-post__head {
+      .c-post__title {
+        font-size: 33px;
+      }
+    }
+  }
+  .c-post__navigation {
+    .c-prev, .c-next {
+      .c-post__nav__title {
+        font-size: 21px;
+      }
+    }
+  }
+}

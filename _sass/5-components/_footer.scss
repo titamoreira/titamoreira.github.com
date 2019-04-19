@@ -1,0 +1,47 @@
+.c-footer {
+  padding: 60px 0 30px;
+  min-height: 1px;
+  background: $light-gray;
+}
+
+.c-footer__head {
+  text-align: center;
+  margin-bottom: 15px;
+
+  .c-footer__title {
+    margin-bottom: 15px;
+    font-size: 21px;
+    text-transform: uppercase;
+  }
+
+  .c-footer__contact__item {
+    display: inline-block;
+    margin-right: 15px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .c-footer__contact__link {
+    font-size: 12px;
+    color: rgba(37, 9, 49, 0.5);
+    transition: $global-transition;
+    &:hover {
+      color: rgba(37, 9, 49, 0.7);
+    }
+  }
+}
+
+.c-copyright {
+  font-size: 13px;
+  text-align: center;
+  color: rgba(50, 35, 70, 0.6);
+  transition: $global-transition;
+
+  a {
+    color: $blue-dark;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+}

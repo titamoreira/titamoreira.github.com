@@ -1,0 +1,64 @@
+title: Minigato Theme
+logo: 15.png # you can add own logo.
+description: Minigato is a responsive simple theme for Jekyll
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author Settings
+author:
+  name:  Sasha Stevens
+  image: 17.png
+  bio:   Hi, my name is Sasha Stevens. I like being at the center of events, being free and enjoying every moment. Thank you for visiting my blog.
+
+# Contact links
+twitter: # Add your Twitter handle
+facebook: # Add your Facebook handle
+email: example@gmail.com # Add your Email address
+
+# Hero Section
+hero:
+  hero-suphead: Welcom
+  hero-title: Minigato Blog for Jekyll Lovers
+  hero-slider: Work # NOTE - By default, the slider is set to display tags. For example, now the slider shows the tag with the text "Work". If you do not want to use the slider, leave the hero-slider field empty.
+
+# Comment Section (Disqus)
+disqus-identifier: # add your shortname for Disqus Comment. For example mr-brown
+
+# Instagram Feed
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 14
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing.
+exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - vendor

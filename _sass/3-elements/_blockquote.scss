@@ -1,0 +1,13 @@
+/* ===============
+	BLOCKQUOTE
+=============== */
+
+blockquote {
+  padding: 15px 15px 15px 30px;
+  font-size: 18px;
+  font-style: normal;
+  border-left: 4px solid $brand-color;
+  p {
+    margin-bottom: 0;
+  }
+}

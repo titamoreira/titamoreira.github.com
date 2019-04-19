@@ -1,0 +1,117 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+:: Template name: Minigato
+:: Description: Minigato is a responsive simple theme for Jekyll
+:: Version: 1.0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>
+:: 1-TOOLS and LIBS
+:: 2-GENERIC
+:: 3-ELEMENTS
+      3.1-Page
+      3.2-Headings
+      3.3-Images
+      3.4-Links
+      3.5-Blockquote
+      3.6-Pre
+      3.7-Hr
+      3.8-Table
+:: 4-OBJECT
+      4.1-Wrapper
+      4.2-Grid
+:: 5-COMPONENTS
+      5.1-Header
+      5.2-Hero
+      5.3-Article
+      5.4-Post
+      5.5-Page
+      5.6-Tags
+      5.7-Pagination
+      5.8-Newsletter
+      5.9-Footer
+      5.10-Instagram
+      5.11-Buttons
+      5.12-Scroll Button Top
+:: 6-TRUMPS
+      6.1-Helpers
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+// 0 SETTINGS
+@import '0-settings/global';
+@import '0-settings/colors';
+@import '0-settings/typography';
+
+// 1 TOOLS and LIBS
+@import '1-tools/mixins';
+@import '1-tools/slick';
+
+/* ============== :: 2-GENERIC ============== */
+@import '2-generic/normalize';
+@import '2-generic/reset';
+@import '2-generic/box-sizing';
+@import '2-generic/shared';
+@import '2-generic/evil-icons';
+@import '2-generic/syntax-highlighting';
+
+
+/* ============== :: 3-ELEMENTS ============== */
+
+/* >>>>>>>>>>>>>> :: 3.1-Page <<<<<<<<<<<<<<< */
+@import '3-elements/page';
+/* >>>>>>>>>>>>>> :: 3.2-Headings <<<<<<<<<<<<<<< */
+@import '3-elements/headings';
+/* >>>>>>>>>>>>>> :: 3.3-Images <<<<<<<<<<<<<<< */
+@import '3-elements/images';
+/* >>>>>>>>>>>>>> :: 3.4-Links <<<<<<<<<<<<<<< */
+@import '3-elements/links';
+/* >>>>>>>>>>>>>> :: 3.5-Blockquote <<<<<<<<<<<<<<< */
+@import '3-elements/blockquote';
+/* >>>>>>>>>>>>>> :: 3.6-Pre <<<<<<<<<<<<<<< */
+@import '3-elements/pre';
+/* >>>>>>>>>>>>>> :: 3.7-Hr <<<<<<<<<<<<<<< */
+@import '3-elements/hr';
+/* >>>>>>>>>>>>>> :: 3.8-Table <<<<<<<<<<<<<<< */
+@import '3-elements/table';
+
+
+/* ============== :: 4-OBJECT ============== */
+
+/* >>>>>>>>>>>>>> :: 4.1-Wrapper <<<<<<<<<<<<<<< */
+@import '4-objects/wrapper';
+/* >>>>>>>>>>>>>> :: 4.2-Grid <<<<<<<<<<<<<<< */
+@import '4-objects/grid';
+
+
+/* ============== :: 5-COMPONENTS ============== */
+
+/* >>>>>>>>>>>>>> :: 5.1-Header <<<<<<<<<<<<<<< */
+@import '5-components/header';
+/* >>>>>>>>>>>>>> :: 5.2-Hero <<<<<<<<<<<<<<< */
+@import '5-components/hero';
+/* >>>>>>>>>>>>>> :: 5.3-Article <<<<<<<<<<<<<<< */
+@import '5-components/article';
+/* >>>>>>>>>>>>>> :: 5.4-Post <<<<<<<<<<<<<<< */
+@import '5-components/post';
+/* >>>>>>>>>>>>>> :: 5.5-Page <<<<<<<<<<<<<<< */
+@import '5-components/page';
+/* >>>>>>>>>>>>>> :: 5.6-Tags <<<<<<<<<<<<<<< */
+@import '5-components/tags';
+/* >>>>>>>>>>>>>> :: 5.7-Pagination <<<<<<<<<<<<<<< */
+@import '5-components/pagination';
+/* >>>>>>>>>>>>>> :: 5.8-Newsletter <<<<<<<<<<<<<<< */
+@import '5-components/newsletter';
+/* >>>>>>>>>>>>>> :: 5.9-Footer <<<<<<<<<<<<<<< */
+@import '5-components/footer';
+/* >>>>>>>>>>>>>> :: 5.10-Instagram <<<<<<<<<<<<<<< */
+@import '5-components/instagram';
+/* >>>>>>>>>>>>>> :: 5.11-Buttons <<<<<<<<<<<<<<< */
+@import '5-components/buttons';
+/* >>>>>>>>>>>>>> :: 5.12-Scroll Button Top <<<<<<<<<<<<<<< */
+@import '5-components/scroll-button-top';
+
+
+/* ============== :: 6-TRUMPS ============== */
+
+/* >>>>>>>>>>>>>> :: 6.1-Helpers <<<<<<<<<<<<<<< */
+@import '6-trumps/helpers';

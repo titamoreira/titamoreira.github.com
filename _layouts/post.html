@@ -1,0 +1,202 @@
+---
+layout: default
+---
+{% if page.image %}
+<div class="o-container">
+	<div class="o-row">
+		<div class="o-col o-col-12">
+			<div class="c-post__image" style="background-image: url({{"/images/" | prepend: site.baseurl | append : page.image}})"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+<div class="o-container">
+	<div class="o-row">
+		<!-- begin c-post -->
+		<article class="c-post o-col o-col-12 o-col-t-8">
+			<div class="c-post__head">
+				{% if page.tags.size >= 1 %}
+				<div class="c-post__tag">
+					{% for tag in page.tags %}
+					<a href="{{ site.baseurl }}/tags#{{tag}}" class="c-tag">{{ tag }}</a>
+					{% endfor %}
+				</div>
+				{% endif %}
+				<h1 class="c-post__title">{{ page.title | escape }}</h1>
+				<div class="c-post__info">
+					<span class="c-post__date">
+						<time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%b %d, %Y'}}</time>
+					</span>
+					<span class="c-post__words">{% capture words %}{{ page.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words |
+          plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+				</div>
+			</div>
+
+			<div class="c-post__content">
+				{{ content }}
+			</div>
+
+			<div class="c-post__share">
+				<span class="c-share__title">Share:</span>
+				<ul class="c-share__list u-list-reset">
+					<li class="c-share__item">
+						<a class="c-share__facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+							onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+							title="Share on Facebook" rel="nofollow">
+							<div data-icon="ei-sc-facebook" data-size="s"></div>
+						</a>
+					</li>
+
+					<li class="c-share__item">
+						<a class="c-share__twitter" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+							onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+							title="Share on Twitter" rel="nofollow">
+							<div data-icon="ei-sc-twitter" data-size="s"></div>
+						</a>
+					</li>
+
+					<li class="c-share__item">
+						<a class="c-share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.description | uri_escape }}&source={{ site.title | uri_escape }}"
+						 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow">
+							<div data-icon="ei-sc-linkedin" data-size="s"></div>
+						</a>
+					</li>
+
+					<li class="c-share__item">
+						<a class="c-share__pinterest" href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ site.baseurl }}/images/{{ page.image }}&amp;description={{ page.title | uri_escape }}"
+						 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest"
+						 rel="nofollow">
+							<div data-icon="ei-sc-pinterest" data-size="s"></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="c-post__navigation">
+				{% if page.previous.url %}
+				<div class="c-prev">
+					<a class="c-post__nav__image" href="{{page.previous.url}}" style="background-image: url({{"/images/" | prepend: site.baseurl | append : page.previous.image}})">
+						<div class="c-prev__post"><div data-icon="ei-chevron-left" data-size="s"></div> <span>Previous <br>Page</span></div>
+					</a>
+					{% if page.tags.size >= 1 %}
+					<div class="c-post__nav__tags">
+						{% for tag in page.previous.tags %}
+						<a href="{{ site.baseurl }}/tags#{{tag}}" class="c-tag">{{ tag }}</a>
+						{% endfor %}
+					</div>
+					{% else %} {% endif %}
+					<h2 class="c-post__nav__title"><a href="{{page.previous.url}}">{{page.previous.title}}</a></h2>
+					<p class="c-prev__excerpt">{% if page.previous.description %}{{ page.previous.description }}{% else %}{{ page.previous.content | strip_html | truncate: 75 }}{% endif %}</p>
+				</div>
+        {% endif %}
+				{% if page.next.url %}
+				<div class="c-next">
+					<a class="c-post__nav__image" href="{{page.next.url}}" style="background-image: url({{"/images/" | prepend: site.baseurl | append : page.next.image}})">
+						<div class="c-next__post"><span>Next <br>Page</span> <div data-icon="ei-chevron-right" data-size="s"></div></div>
+					</a>
+					{% if page.tags.size >= 1 %}
+					<div class="c-post__nav__tags">
+						{% for tag in page.next.tags %}
+						<a href="{{ site.baseurl }}/tags#{{tag}}" class="c-tag">{{ tag }}</a>
+						{% endfor %}
+					</div>
+					{% else %} {% endif %}
+					<h2 class="c-post__nav__title"><a href="{{page.next.url}}">{{page.next.title}}</a></h2>
+					<p class="c-next__excerpt">{% if page.next.description %}{{ page.next.description }}{% else %}{{ page.next.content | strip_html | truncate: 75 }}{% endif %}</p>
+				</div>
+        {% endif %}
+			</div>
+
+			<div class="c-separater"></div>
+
+			{% if site.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
+
+		</article>
+		<!-- end c-post -->
+		
+		<!-- begin c-sidebar -->
+		<aside class="c-sidebar o-col o-col-12 o-col-t-4">
+			<!-- begin c-widget-author -->
+			<div class="c-widget c-widget-author">
+				<h4 class="c-widget__title">About Me</h4>
+				<div class="c-author-image-box">
+					<img class="c-author__image" src="{{"/images/" | prepend: site.baseurl | append: site.author.image }}" alt="{{site.author.name}}">
+				</div>
+				<h5 class="c-author__name">{{site.author.name}}</h5>
+				<div class="c-author__bio">{{site.author.bio}}</div>
+				<ul class="c-contact__list u-list-reset">
+					<li class="c-contact__item">
+						<a href="https://twitter.com/{{site.twitter}}" class="c-contact__link"><div data-icon='ei-sc-twitter' data-size='s'></div></a>
+					</li>
+					<li class="c-contact__item">
+						<a href="https://facebook.com/{{site.facebook}}" class="c-contact__link"><div data-icon='ei-sc-facebook' data-size='s'></div></a>
+					</li>
+					<li class="c-contact__item">
+						<a href="mailto:{{site.email}}" class="c-contact__link"><div data-icon='ei-envelope' data-size='s'></div></a>
+					</li>
+				</ul>
+			</div>
+			<!-- end c-widget-author -->
+
+			{% if site.instafeed == true %}
+			<!-- begin c-widget-instagram -->
+			<div class="c-widget c-widget-instagram">
+				<h4 class="c-widget__title">Instagram</h4>
+				{% include instagram.html %}
+			</div>
+			<!-- end c-widget-instagram -->
+			{% endif %}
+
+			<div class="c-widget c-widget-recent">
+				<h4 class="c-widget__title">Recent Posts</h4>
+				{% for post in site.posts limit:4 %}
+				<div class="c-recent-posts">
+					{% if post.image %}
+					<div class="c-recent__header">
+          	<a class="c-recent__image" href="{{ post.url }}" style="background-image: url({{"/images/" | prepend: site.baseurl | append: post.image}})"></a>
+					</div>
+          {% else %}
+					{% endif %}
+					<div class="c-recent__content">
+						<h6 class="c-recent__title"><a href="{{ post.url }}">{{ post.title }}</a></h6>
+						<div class="c-recent__date">
+							<time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date: "%B %-d, %Y"}}</time>
+						</div>
+					</div>       
+				</div>
+				{% endfor %}
+			</div> <!-- /.c-widget-recent -->
+			
+			<!-- begin c-widget-newsletter -->
+			<div class="c-widget c-widget-newsletter">
+		    <h4 class="c-widget__title">Newsletter</h4>
+		    <div class="c-newsletter-subtitle">Get Interesting News</div>
+		    <div class="c-newsletter-text">Receive the latest news via email.</div>
+		    <form class="c-newsletter-form validate" action="{% if site.mailchimp %}//{{site.mailchimp}}{% else %}#{% endif %}" method="POST"
+		      id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+		      <div class="c-newsletter-group">
+		        <div class="c-newsletter-group-top">
+		          <label class="u-screen-reader-text" for="mce-EMAIL">Email address</label>
+		          <input class="c-newsletter-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="E-mail">
+		        </div>
+		        <input class="c-newsletter-button" id="mc-embedded-subscribe" type="submit" name="subscribe" value="Subscribe">
+		      </div>
+		    </form>
+		  </div>
+		  <!-- end c-widget-newsletter -->
+
+			<div class="c-widget c-widget-tags">
+				<h4 class="c-widget__title">Tag Cloud</h4>
+				{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+				{% assign tag_words = site_tags | split:',' | sort %}
+				<ul class="c-tags__list u-list-reset">
+				{% for item in (0..site.tags.size) %}{% unless forloop.last %}
+					{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+					<li class="c-tags__item"><a href="{{ site.baseurl }}/tags#{{ this_word | cgi_escape }}" class="c-tags__link">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></a></li>
+				{% endunless %}{% endfor %}
+				</ul>
+			</div>
+		</aside>
+		<!-- end c-sidebar -->
+	</div>
+</div>

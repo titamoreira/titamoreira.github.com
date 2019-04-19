@@ -1,0 +1,33 @@
+/* ===============
+	PAGE
+=============== */
+
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: $base-font-weight;
+  color: $text-color;
+  background-color: $background;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*::selection {
+  color: $white-color;
+  background-color: $blue-dark;
+}
+
+.c-canvas {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.c-separater {
+  width: 100%;
+  height: 0;
+  margin: 0 15px;
+  padding: 0;
+  border-top: 2px solid $border-color;
+}

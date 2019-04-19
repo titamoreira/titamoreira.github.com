@@ -1,0 +1,48 @@
+.c-pagination {
+  margin: 30px 0 0;
+  text-align: center;
+
+  .c-pagination__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.c-previous-posts,
+.c-older-posts,
+.c-newer-posts {
+  width: 100%;
+}
+
+.c-previous__link,
+.c-older__link,
+.c-newer__link {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  border: 1px solid $brand-color;
+  transition: $global-transition;
+  color: $white-color;
+  background: $brand-color;
+  &:hover {
+    background: darken($brand-color, 10%);
+    color: $white-color;
+  }
+}
+
+.c-previous__link,
+.c-newer__link {
+  padding: 12px 24px 12px 14px;
+}
+
+.c-older__link {
+  padding: 12px 14px 12px 24px;
+}
+
+@media only screen and (min-width: 576px) {
+  .c-pagination {
+    margin: 50px 0 0;
+  }
+}

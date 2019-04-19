@@ -1,0 +1,40 @@
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  font-size: 12px;
+  color:#333333;
+  width: 100%;
+  border-width: 1px;
+  border-color: $gray;
+  border-collapse: collapse;
+}
+
+table th {
+  padding: 8px;
+  font-size: 16px;
+  text-align: left;
+  border: 1px solid $gray;
+  color: $white-color;
+  background-color: $brand-color;
+}
+
+table tr {
+  background-color: rgba(229, 212, 228, 0.4);
+  transition: all .3s ease;
+  &:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+}
+
+table td {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid $gray;
+}
+
+table tr:hover {
+  background-color: $white-color;
+}

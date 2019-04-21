@@ -1,11 +1,15 @@
 ---
 layout: post
-title:  Miracle of architecture
-date:   2018-07-25 15:05:48 +0300
-image:  20.png
-tags:   Architecture
+title: Miracle of architecture
+date: 2018-07-25 12:05:00
+image: /images/20.png
+tags:
+  - Architecture
 ---
+
 Helvetica stumptown photo booth truffaut, jean shorts cliche beard craft beer shaman flexitarian activated charcoal vinyl palo santo. Pickled cloud bread la croix cornhole taiyaki. Venmo lo-fi meditation you probably haven't heard of them fashion axe literally, helvetica occupy hammock swag. Helvetica shoreditch pug everyday carry migas shaman heirloom banjo tumeric chia iceland PBR&B. Dreamcatcher DIY letterpress pabst meggings. Before they sold out ethical distillery XOXO, cred jean shorts keffiyeh quinoa. Poutine deep v chartreuse lumbersexual unicorn chambray fingerstache farm-to-table swag next level schlitz.
+
+![Peas that are now displayed](/uploads/peas.jpg "Peas")
 
 Ramps next level salvia keytar trust fund, tumeric normcore art party succulents meggings air plant. Hot chicken tattooed cliche heirloom. Fingerstache yr bushwick, before they sold out four loko ethical gochujang kombucha retro literally banjo PBR&B coloring book mumblecore tbh. DIY hexagon food truck umami. Portland semiotics dreamcatcher 90's bitters.
 

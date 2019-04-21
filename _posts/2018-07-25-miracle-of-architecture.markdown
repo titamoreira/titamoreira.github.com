@@ -2,7 +2,7 @@
 layout: post
 title: Miracle of architecture
 date: 2018-07-25 12:05:00
-image: /images/20.png
+image: /uploads/peas.jpg
 tags:
   - Architecture
 ---

@@ -75,7 +75,7 @@ layout: default
       <div class="c-post__navigation">
         {% if page.previous.url %}
         <div class="c-prev">
-          <a class="c-post__nav__image" href="{{page.previous.url}}" style="background-image: url({{"/images/" | prepend: site.baseurl | append : page.previous.image}})">
+          <a class="c-post__nav__image" href="{{page.previous.url}}" style="background-image: url({{site.baseurl | append : page.previous.image}})">
             <div class="c-prev__post"><div data-icon="ei-chevron-left" data-size="s"></div> <span>Previous <br>Page</span></div>
           </a>
           {% if page.tags.size >= 1 %}
@@ -91,7 +91,7 @@ layout: default
         {% endif %}
         {% if page.next.url %}
         <div class="c-next">
-          <a class="c-post__nav__image" href="{{page.next.url}}" style="background-image: url({{"/images/" | prepend: site.baseurl | append : page.next.image}})">
+          <a class="c-post__nav__image" href="{{page.next.url}}" style="background-image: url({{site.baseurl | append : page.next.image}})">
             <div class="c-next__post"><span>Next <br>Page</span> <div data-icon="ei-chevron-right" data-size="s"></div></div>
           </a>
           {% if page.tags.size >= 1 %}
@@ -120,7 +120,7 @@ layout: default
       <div class="c-widget c-widget-author">
         <h4 class="c-widget__title">About Me</h4>
         <div class="c-author-image-box">
-          <img class="c-author__image" src="{{"/images/" | prepend: site.baseurl | append: site.author.image }}" alt="{{site.author.name}}">
+          <img class="c-author__image" src="{{site.baseurl | append: site.author.image }}" alt="{{site.author.name}}">
         </div>
         <h5 class="c-author__name">{{site.author.name}}</h5>
         <div class="c-author__bio">{{site.author.bio}}</div>
@@ -150,7 +150,7 @@ layout: default
         <div class="c-recent-posts">
           {% if post.image %}
           <div class="c-recent__header">
-            <a class="c-recent__image" href="{{ post.url }}" style="background-image: url({{"/images/" | prepend: site.baseurl | append: post.image}})"></a>
+            <a class="c-recent__image" href="{{ post.url }}" style="background-image: url({{site.baseurl | append: post.image}})"></a>
           </div>
           {% else %}
           {% endif %}

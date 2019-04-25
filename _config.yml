@@ -7,7 +7,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Author Settings
 author:
   name: Valentina
-  image: 17.png
+  image: /images/17.png
   bio: Hi, my name is Valentina. I like being at the center of events, being free and enjoying every moment. Thank you for visiting my blog.
 
 # Contact links

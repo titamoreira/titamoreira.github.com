@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Home.
+title: Home
 date: 2018-07-25 12:05:00
 image: /uploads/home.jpg
 tags:
@@ -15,7 +15,7 @@ A safe shelter and a comfort zone.
 
 Home are those warm sheets that I can’t leave in the morning. A toothbrush in the bathroom. A picture in the lobby and the sound of his keys opening the door at the end of the day.
 
-Home is the ring bell singing and friends coming for dinner.&nbsp;
+Home is the ring bell singing and friends coming for dinner. 
 
 Home is a blanket and a cup of tea. The feeling of peace and quiet on a cozy, rainy Sunday; the feeling of relief when you pull into the driveway after a long day of work. The feeling that you are almost there. Home is a quiet kiss on your neck, right before falling asleep, it's the warmth of hugs and a kiss of goodbye.
 
@@ -31,4 +31,4 @@ Home is certainty in an uncertain world.
 
 Houses get bought and sold but a home stays with us through time. And whether our houses are big or small, fancy or modest, they are shelters and sanctuaries for that precious little thing called time.
 
-Welcome to my home. Have a seat and let's learn things together\!&nbsp;
+Welcome to my home. Have a seat and let's learn things together\!

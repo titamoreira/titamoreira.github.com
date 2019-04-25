@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Post Archives
-image: 20.png
+image: /images/20.png
 permalink: /tags/
 ---
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
@@ -24,7 +24,7 @@ permalink: /tags/
   <div class="c-tags__group">
     {% for post in site.tags[this_word] %}{% if post.title != null %}
     <div class="c-tag__item">
-      <a class="c-tag__image" href="{{ post.url }}"  style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})"></a>
+      <a class="c-tag__image" href="{{ post.url }}"  style="background-image: url({{site.baseurl | append : post.image}})"></a>
       <div class="c-tag__text">
         <a class="c-tag__link" href="{{ post.url }}">{{ post.title }}</a><br>
         <small><span class="c-tag__date">{{ post.date | date_to_string }}</span></small>

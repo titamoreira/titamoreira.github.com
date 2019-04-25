@@ -2,7 +2,7 @@
 layout: post
 title:  The first day in a new job
 date:   2018-07-24 15:03:35 +0300
-image:  20.png
+image:  /images/20.png
 tags:   Work
 ---
 Helvetica stumptown photo booth truffaut, jean shorts cliche beard craft beer shaman flexitarian activated charcoal vinyl palo santo. Pickled cloud bread la croix cornhole taiyaki. Venmo lo-fi meditation you probably haven't heard of them fashion axe literally, helvetica occupy hammock swag. Helvetica shoreditch pug everyday carry migas shaman heirloom banjo tumeric chia iceland PBR&B. Dreamcatcher DIY letterpress pabst meggings. Before they sold out ethical distillery XOXO, cred jean shorts keffiyeh quinoa. Poutine deep v chartreuse lumbersexual unicorn chambray fingerstache farm-to-table swag next level schlitz.

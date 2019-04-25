@@ -9,7 +9,7 @@
           {% for post in site.tags.[slider_tags] limit: 3 %}
             {% if post.title != null %}
           <div class="c-hero-slider__item">
-            <div class="c-hero-slider__image" style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})">
+            <div class="c-hero-slider__image" style="background-image: url({{site.baseurl | append : post.image}})">
               <div class="c-hero-slider__box">
                 <div class="c-hero-slider__content">
                   <div class="c-hero-slider__tags">

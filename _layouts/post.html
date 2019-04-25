@@ -5,7 +5,7 @@ layout: default
 <div class="o-container">
   <div class="o-row">
     <div class="o-col o-col-12">
-      <div class="c-post__image" style="background-image: url({{"/images/" | prepend: site.baseurl | append : page.image}})"></div>
+      <div class="c-post__image" style="background-image: url({{site.baseurl | append : page.image}})"></div>
     </div>
   </div>
 </div>
@@ -183,7 +183,7 @@ layout: default
       <!-- end c-widget-newsletter -->
 
       <div class="c-widget c-widget-tags">
-        <h4 class="c-widget__title">Tag Cloud</h4>
+        <h4 class="c-widget__title">Tags</h4>
         {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
         {% assign tag_words = site_tags | split:',' | sort %}
         <ul class="c-tags__list u-list-reset">

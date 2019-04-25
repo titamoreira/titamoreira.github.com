@@ -6,7 +6,7 @@ layout: default
 <div class="o-container">
 	<div class="o-row">
 		<div class="o-col o-col-12">
-			<div class="c-page__image" style="background-image: url({{"/images/" | prepend: site.baseurl | append : page.image}})"></div>
+			<div class="c-page__image" style="background-image: url({{site.baseurl | append : page.image}})"></div>
 		</div>
 	</div>
 </div>
@@ -19,7 +19,7 @@ layout: default
 			<!-- begin c-page -->
 			<article class="c-page">
 				<h1 class="c-page__title">{{ page.title | escape }}</h1>
-			
+
 				<div class="c-page__content">
 					{{ content }}
 				</div>

@@ -9,7 +9,12 @@ layout: default
 			<!-- begin c-article -->
 			<div class="c-article o-col {% if forloop.index <= 2 %}o-col-12 o-col-t-6 {% else %}o-col-12 o-col-t-6 o-col-d-4{% endif %}">
 				<div class="c-article__content">
-					{% if post.image %}
+					{% if post.cover %}
+					<a href="{{post.url | prepend: site.baseurl}}" class="c-article__image" style="background-image: url({{site.baseurl | append : post.cover}})">
+						<span class="c-mask"></span>
+						<span class="c-text">Read More...</span>
+					</a>
+					{% elsif post.image %}
 					<a href="{{post.url | prepend: site.baseurl}}" class="c-article__image" style="background-image: url({{site.baseurl | append : post.image}})">
 						<span class="c-mask"></span>
 						<span class="c-text">Read More...</span>

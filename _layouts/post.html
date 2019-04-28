@@ -189,7 +189,7 @@ layout: default
         <ul class="c-tags__list u-list-reset">
         {% for item in (0..site.tags.size) %}{% unless forloop.last %}
           {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-          <li class="c-tags__item"><a href="{{ site.baseurl }}/tags#{{ this_word | cgi_escape }}" class="c-tags__link">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></a></li>
+          <li class="c-tags__item"><a href="{{ site.baseurl }}/tags#{{ this_word | cgi_escape }}" class="c-tags__link">{{ this_word }}</a></li>
         {% endunless %}{% endfor %}
         </ul>
       </div>

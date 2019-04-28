@@ -1,5 +1,5 @@
 title: Valentina Quotidien
-logo: 15.png # you can add own logo.
+logo: logo.png # you can add own logo.
 description: Minigato is a responsive simple theme for Jekyll
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

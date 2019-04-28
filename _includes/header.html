@@ -5,7 +5,7 @@
       <div class="c-logo">
         <a class="c-logo__link" href="/">
         {%if site.logo %}
-          <img class="c-logo__image" src="{{ site.baseurl }}/images/{{ site.logo }}" alt="{{ site.title }}">
+          <img class="c-logo__image" src="{{ site.baseurl }}/uploads/{{ site.logo }}" alt="{{ site.title }}">
         {% else %}
           {{ site.title }}
         {% endif %}
@@ -13,13 +13,13 @@
       </div>
 
       <nav class="c-nav">
-        
+
         <div class="c-nav__box">
           <div class="c-nav__close" data-icon="ei-close" data-size="s"></div>
           <div class="c-nav__title">Menu</div>
           <ul class="c-nav__list u-list-reset">
             <li class="c-nav__item">
-              <a href="/" class="c-nav__link">Home</a>
+              <a href="/" class="c-nav__link">Homepage</a>
             </li>
             {% for page in site.pages %}
               {% unless page.name == 'tags.html' or page.name == '404.html' %}

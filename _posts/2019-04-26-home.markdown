@@ -3,6 +3,7 @@ layout: post
 title: Home
 date: 2019-04-26 00:00:00
 image: /uploads/1st-post.jpg
+cover: /uploads/1st-post-cover.jpg
 tags:
   - Home
   - Lifestyle

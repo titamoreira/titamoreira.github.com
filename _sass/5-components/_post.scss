@@ -91,6 +91,7 @@
 
 .c-post__content {
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 .c-post__share {
@@ -130,7 +131,7 @@
 
   .c-prev, .c-next {
     flex: 1 0 50%;
-    
+
     .c-post__nav__image {
       position: relative;
       display: block;
@@ -405,7 +406,7 @@
 .c-tags__list {
   display: flex;
   flex-wrap: wrap;
-  
+
   .c-tags__item {
     margin: 0 12px 12px 0;
   }

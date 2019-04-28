@@ -2,7 +2,7 @@
 layout: post
 title: Home
 date: 2019-04-26 00:00:00
-image: /uploads/home.jpg
+image: /uploads/1st-post.jpg
 tags:
   - Home
   - Lifestyle
@@ -15,7 +15,7 @@ A safe shelter and a comfort zone.
 
 Home is the feeling of having the sheets warm when the clock rings, early in the morning. It's two toothbrushes in the bathroom. Our picture in the lobby and the sound of his keys opening the door at the end of the day.
 
-Home is the ring bell singing and friends coming for over dinner.&nbsp;
+Home is the ring bell singing and friends coming for over dinner. 
 
 Home is a blanket and a cup of tea. The feeling of peace and quiet on a cozy, rainy Sunday; the feeling of relief when you pull into the driveway after a long day of work. The feeling that you are almost there. Home is a quiet kiss on your neck, right before falling asleep, it's the warmth of hugs and a kiss of goodbye.
 

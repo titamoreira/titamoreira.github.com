@@ -1,3 +1,11 @@
 {% if site.instafeed == true %}
-  <ul id="instafeed" class="c-instagram-grid u-list-reset"></ul>
+<ul id="instafeed" class="c-instagram-grid u-list-reset">
+  {% for photo in site.instagrams %}
+  <li class="c-instagram-item">
+    <a href="{{photo.link}}" aria-label="{{photo.caption}}" target="_blank">
+      <img src="{{photo.image}}" alt="{{photo.caption}}">
+    </a>
+  </li>
+  {% endfor %}
+</ul>
 {% endif %}

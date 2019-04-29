@@ -14,10 +14,35 @@ author:
 instagram: valentinaquotidien # Add your Facebook handle
 email: valentinaquotidien@gmail.com # Add your Email address
 
+instagrams:
+  - link: https://www.instagram.com/p/BwFyTSMFmRu/
+    caption: "Verdi’s Requiem Opera ✨"
+    image: https://instagram.flis5-1.fna.fbcdn.net/vp/3f813e828d465375371e96bd0d4dde97/5D6A7312/t51.2885-15/sh0.08/e35/c135.0.809.809a/s640x640/55869116_147389882976994_8734702881997856516_n.jpg?_nc_ht=instagram.flis5-1.fna.fbcdn.net
+
+  - link: https://www.instagram.com/p/Bv7MHhAlw-8/
+    caption: "a good bucket list advice: catch a czech sunset from a boat"
+    image: https://instagram.flis5-1.fna.fbcdn.net/vp/3d79b73cd7577c2a12c66d64a4691211/5D616CF7/t51.2885-15/sh0.08/e35/c124.0.832.832/s640x640/54513925_611528612657747_3628206317714772613_n.jpg?_nc_ht=instagram.flis5-1.fna.fbcdn.net
+
+  - link: https://www.instagram.com/p/BoUNZRvgN_G/
+    caption: "we have a thing (or two) about cool places"
+    image: https://instagram.flis5-1.fna.fbcdn.net/vp/b45ab5c3680d15f23889fcfb891e14bd/5D65B18E/t51.2885-15/sh0.08/e35/c0.135.1080.1080a/s640x640/41562992_700928610272996_7961348939194473095_n.jpg?_nc_ht=instagram.flis5-1.fna.fbcdn.net
+
+  - link: https://www.instagram.com/p/BfgFmungl6B/
+    caption: "blossom"
+    image: https://instagram.flis5-1.fna.fbcdn.net/vp/a2be9272bdc59381f0743d2b22712f96/5D715263/t51.2885-15/sh0.08/e35/c0.135.1080.1080a/s640x640/27894269_1414740278627350_2705499560171536384_n.jpg?_nc_ht=instagram.flis5-1.fna.fbcdn.net
+
+  - link: https://www.instagram.com/p/Be2xw-XAAMh/
+    caption: "home #missitthere"
+    image: https://instagram.flis5-1.fna.fbcdn.net/vp/7dc152cf062e80d6215133d1cbf73aae/5D5FE901/t51.2885-15/sh0.08/e35/c185.0.693.693/s640x640/26870346_243485756192896_4736086731088986112_n.jpg?_nc_ht=instagram.flis5-1.fna.fbcdn.net
+
+  - link: https://www.instagram.com/p/BYJsI1Zgiqy/
+    caption: "vitamin sea 🐠🐡🐬"
+    image: https://instagram.flis5-1.fna.fbcdn.net/vp/29ecfc63f759c5369f77fa048b9326cb/5D681F27/t51.2885-15/sh0.08/e35/c135.0.809.809a/s640x640/21042358_111545342891457_5847595035746369536_n.jpg?_nc_ht=instagram.flis5-1.fna.fbcdn.net
+
 # Hero Section
 hero:
-  hero-suphead: Welcom
-  hero-title: Minigato Blog for Jekyll Lovers
+  hero-suphead: Welcome
+  hero-title: Valentina Quotidien
   hero-slider: Work # NOTE - By default, the slider is set to display tags. For example, now the slider shows the tag with the text "Work". If you do not want to use the slider, leave the hero-slider field empty.
 
 # Comment Section (Disqus)

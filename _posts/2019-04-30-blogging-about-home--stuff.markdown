@@ -22,7 +22,7 @@ I’m just kidding, love. It’s not rivers, just some\! I find the balance the 
 
 But for my surprise, when I shared within my inner circle that I was starting this decoration project, the no. 1 comment that stick with me the most was:
 
-> “I hated it. It’s just… so confusing. You’ll find yourself wanting everything and right before you notice, you’ll end up with no style whatsoever, just a bunch of nice things that don’t go along together. Just don’t have too many expectations on that. Or just ask a professional”.
+> I hated it. It’s just… so confusing. You’ll find yourself wanting everything and right before you notice, you’ll end up with no style whatsoever, just a bunch of nice things that don’t go along together. Just don’t have too many expectations on that. Or just ask a professional.
 
 I’ll be honest, my heart broke a little bit there. But then I started my research and the pain was over right before it even started\!
 

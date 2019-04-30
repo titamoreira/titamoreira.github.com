@@ -12,7 +12,7 @@ tags:
 
 Well, so blogging about home and stuff, &atilde;h?
 
-I’m guessing that the three *loneliners* that might come across this blog will wonder why above all subjects in the world, why blog about home and stuff. Well, just not to have three very anonymous persons wonder in the world on such an imperative question, here’s why: (mom, love, sneaky-friend-from-work, here’s for you:) it’s simple because it’s my favourite place on earth at the moment and I want more people to love their homes as little as I love mine. It just makes wonders on you.
+I’m guessing that the three *loneliners* that might come across this blog will wonder why above all subjects in the world, blogging about home and stuff would be a thing. Well, just not to have three very anonymous persons wonder in the world on such an imperative question, here’s why: (mom, love, sneaky-friend-from-work, here’s for you:) it’s simple because it’s my favourite place on earth at the moment and I want more people to love their homes as little as I love mine. It just makes wonders on you.
 
 You know, there was a time, and for a long time, that going home was painful. It meant anxiety, sadness and a parallel wish that something could take me someplace else as I would swear to myself that one day I would build a place over love, trust and empowerment.
 

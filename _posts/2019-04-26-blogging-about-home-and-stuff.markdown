@@ -16,7 +16,7 @@ I’m guessing that the three *loneliners* that might come across this blog will
 
 You know, there was a time, and for a long time, that going home was painful. It meant anxiety, sadness and a parallel wish that something could take me someplace else as I was swearing to myself that one day I would build a place over love, trust and empowerment.
 
-That day lucky arrived and with it the feeling of paying the debts to my old self, came too. So much empowered by love and confidence, I started building my own sanctuary and with that I found something as a hobby that I started to be passionate about: spending rivers of money on decoration\!
+That day lucky arrived and with it the feeling of paying the debts to my old self, came too. So much empowered by love and confidence, I started building my own sanctuary and with that I found something as a hobby that later on I found myself passionate about: spending rivers of money on decoration\!
 
 I’m just kidding, love. It’s not rivers, just some\! I find the balance the key of everything.
 

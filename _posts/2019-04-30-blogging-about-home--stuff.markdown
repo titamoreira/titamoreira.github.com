@@ -3,7 +3,7 @@ layout: post
 title: Blogging about home & stuff
 date: 2019-04-30 00:00:00
 image: /uploads/post-ii-cover.png
-cover: /uploads/1st-post-cover.png
+cover: /uploads/Post_II_cover.png
 tags:
   - Home
   - Lifestyle

@@ -2,8 +2,8 @@
 layout: post
 title: Plant Rustique Recipe
 date: 2019-05-01T00:00:00.000+00:00
-image: 
-cover: "/uploads/post-ii-cover.png"
+image: "/uploads/post-iii.png"
+cover: "/uploads/post-iii-cover.png"
 tags:
 - Home
 - Lifestyle

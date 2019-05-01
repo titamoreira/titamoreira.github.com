@@ -10,31 +10,103 @@ tags:
   - Decoration
 ---
 
-Well, so blogging about home and stuff, hein?
+It's a like a salad turn to a missed *ratatouille*. And I call it *plant rustique* ('cause it has eggplants on it, duh)
 
-I’m guessing that the three *loners* that might come across this blog will wonder why above all subjects in the world, blogging about home and stuff would be a thing. Well, just so I don't have my very "anonymous" audience wondering through the clouds on such an imperative question, here’s why (and, mom, love, sneaky-friend-from-work, here’s for you): it’s simple because **it’s my favourite place on earth** at the moment and I want more people to love their homes as little as I love mine. It just makes wonders on you.
+At home we like to project ourselves as top Chefs. Nothing less. Maybe we miss all the skills and perhaps, knowledge, but envisioning yourself as a Chef, if you ask me, allows you to put your most creative self at the stall and just create\! But ok, even if you don’t consider yourself a chef, chances are, you can make this side dish with ease. I promise\!
 
-You know, there was a time, and for a long time, that going home was painful. And it meant anxiety, panic-attacks, sadness and a parallel wish that something could take me someplace else as I was swearing to myself that one day I would build a place over love, trust and empowerment.
+Dish rullers: eggplants and sweet potato. And thanks to our killer combo of sweet potatos and *sriracha sauce*, this easy dish has an light yet yumi sweet-yet-savory kick we keep repeating.
 
-That day luckily arrived and with it the feeling of paying the debts to my old self, came too. So much empowered by love and confidence, I started building my own sanctuary and with that I found something as a hobby that later on I found myself passionate about: **spending rivers of money on decoration\!**
+Just some knowledge on what you're about to eat: sweet potatoes are great allies to our bodies. In fact, they are rich in fiber, full of nutrients, and contain a variety of vitamins and minerals, including iron, calcium, selenium, and vitamins B and C. The vegetable is also high in beta-carotene, an antioxidant which promotes healthy skin and eyes.&nbsp;
 
-I’m just kidding, love. It’s not rivers, just some\! I find balance the key of everything.
+> ### **Plant Rustique Recipe**
+>
+> **Serving Size:** 2 pax (3 servings) \|&nbsp;***Prep Time:&nbsp;****10 min*
+>
+>
+> ***Cook Time:** 40 min \|&nbsp;***Total Time:** 50 min
+>
+>
+> #### &nbsp;
+>
+> #### Ingredients
+>
+> ###### For the potatoes
+>
+> 1 big organic sweet potato scrubbed clean with skin on
+>
+>
+> 2 tablespoons extra virgin olive oil
+>
+>
+> 1-2 teaspoons&nbsp;*sriracha sauce (or, according to your taste, bearing in mind that is a (light) spicy sauce)*
+>
+>
+> ###### For the ratatouille
+>
+> 1 big organic eggplant
+>
+>
+> 1 big organic tomato
+>
+>
+> 2 hands of organic green peas
+>
+>
+> ###### For the salad
+>
+> 4 hands of organic baby spinach
+>
+>
+> 1 lemon zest
+>
+>
+> #### Preparation
+>
+> 1\. Preheat oven to 200&deg; C.
+>
+>
+> 2\. After cleaning the sweet potatoes, the tomato and the eggplant, dry them off and cut them in half, then in quarters, then into small triangles.
+>
+>
+> 3\. Spread chopped potatoes evenly on baking sheet.
+>
+>
+> 4\. Drizzle olive oil over potatoes.
+>
+>
+> 5\. Sprinkle sriracha *sauce* over.
+>
+>
+> 6\. Place in oven and flip over after 25 minutes.
+>
+>
+> 7\. While the potatoes are in the oven, put the chopped eggplant in a non-stick pan for 5-7 minutes or until lightly browned and crispy, flipping halfway through if necessary.
+>
+>
+> 8\. Put the green peas in a pan with boiling water.
+>
+>
+> 8\. When with the eggplant assumed the desirable crispy aspect, join the tomato and let them for 3-4 minutes.
+>
+>
+> 10\. Raise oven temperature to 250&deg; at the 20-minute mark and let them bake for another 10-15 minutes or until lightly browned and crispy, flipping halfway through if necessary.
+>
+>
+> 11\. Back at the pans: join the boiled green peas to the eggplant&tomato pan and with it, the tablespoon of the water.
+>
+>
+> 12\. Add salt, black pepper and basil to the prep.
+>
+>
+> 13\. Join two hands of baby spinach in a large bowl and add the zest of one lemon to it.
+>
+>
+> 14\. Join the roasted sweet potatoes & the ratatouille in the bowl and finish with some parmigiano reggiano on top.
+>
+>
+> 15\. Voil&agrave;\! Finnito\! enjoy
 
-But for my surprise, when I shared within my inner circle that I was starting this decoration project, the no. 1 comment that stick with me the most was:
-
-> *I hated it. It’s just… so confusing. You’ll find yourself wanting everything and right before you notice, you’ll end up with no style whatsoever, just a bunch of nice things that don’t go along together. Just don’t have too many expectations on that. Or just ask a professional.*
-
-I’ll be honest, my heart broke a little bit there. But then I started my research and the pain was over right before it even started\!
-
-![](/uploads/post-ii-i.png)
-
-The thing is (and this is my message to the world) it’s not that. It’s not confusing, it’s even therapeutic\! Finding the right things, and only the necessary ones, that empowers you to be your very best: it's power. **Building a place that works on your ego, your confidence, your peace and inner-balance, if you ask me, is every day more important in this frenetic world.** Homes govern dreams, friendships and expectations. It's where we find support and openness towards life matters. And I’m guessing that after some months of doing that to myself, I deserve the right of putting that impostor-syndrome-feeling apart and use this platform as a shareholder for some tips on home decoration or some completely farfetched inspirations, to whoever is interested in such subjects.
-
-I find love and making memories from love the no. 1 therapy. For me, love and memories come through having my space, my place, my home. It also comes through planning trips that will make me happy, knowing new places abroad and making the best of them. It comes through eating well, or at least trying to, but definitely by cooking my food and learning recipes that make me feel good inside and out.
-
-![](/uploads/post-ii-ii.png)
-
-And what does it mean to have love and confidence if not to share it? The best part of feeling both is the influence you give so others feel it too, and sharing what I know is powerful with the ones I love and care about gives me happiness. So why not share it with you too?
+#### &nbsp;
 
 Love,
 

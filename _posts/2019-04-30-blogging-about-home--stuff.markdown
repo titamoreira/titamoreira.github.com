@@ -2,7 +2,7 @@
 layout: post
 title: Blogging about home & stuff
 date: 2019-04-30 00:00:00
-image: /uploads/canning-cottage-by-bicker-design.jpeg
+image:
 cover: /uploads/1st-post-cover.png
 tags:
   - Home
@@ -24,16 +24,14 @@ But for my surprise, when I shared within my inner circle that I was starting th
 
 > *I hated it. It’s just… so confusing. You’ll find yourself wanting everything and right before you notice, you’ll end up with no style whatsoever, just a bunch of nice things that don’t go along together. Just don’t have too many expectations on that. Or just ask a professional.*
 
-I’ll be honest, my heart broke a little bit there. But then I started my research and the pain was over right before it even started\!
+I’ll be honest, my heart broke a little bit there. But then I started my research and the pain was over right before it even started\!![](/uploads/postii-i-2.png)
 
 The thing is (and this is my message to the world) it’s not that. It’s not confusing, it’s even therapeutic\! Finding the right things, and only the necessary ones, that empowers you to be your very best: it's power. **Building a place that works on your ego, your confidence, your peace and inner-balance, if you ask me, is every day more important in this frenetic world.** Homes govern dreams, friendships and expectations. It's where we find support and openness towards life matters. And I’m guessing that after some months of doing that to myself, I deserve the right of putting that impostor-syndrome-feeling apart and use this platform as a shareholder for some tips on home decoration or some completely farfetched inspirations, to whoever is interested in such subjects.
 
 I find love and making memories from love the no. 1 therapy. For me, love and memories come through having my space, my place, my home. It also comes through planning trips that will make me happy, knowing new places abroad and making the best of them. It comes through eating well, or at least trying to, but definitely by cooking my food and learning recipes that make me feel good inside and out.
 
-And what does it mean to have love and confidence if not to share it? The best part of feeling both is the influence you give so others feel it too, and sharing what I know is powerful with the ones I love and care about gives me happiness. So why not share it with you too?
+![](/uploads/postii-ii.png)And what does it mean to have love and confidence if not to share it? The best part of feeling both is the influence you give so others feel it too, and sharing what I know is powerful with the ones I love and care about gives me happiness. So why not share it with you too?
 
 Love,
 
 Valentina
-
-![](/uploads/postii-1.png)

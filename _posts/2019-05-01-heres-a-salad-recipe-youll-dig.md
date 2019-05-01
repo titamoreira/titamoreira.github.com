@@ -16,7 +16,7 @@ And I call it _plant rustique_ ('cause it has eggplants on it, duh)
 
 At home we like to project ourselves as top Chefs. Nothing less. Maybe we miss all the skills and perhaps, knowledge, but envisioning yourself as a Chef, if you ask me, allows you to put your most creative self at the stall and just create! But ok, even if you don’t consider yourself a chef, chances are, you can make this dish with ease. 
 
-Dish stars: eggplants and sweet potato. 
+**Dish stars: eggplants and sweet potato.** 
 
 And thanks to our killer combo of sweet potatos and _sriracha sauce_, this easy dish has an light yet yumi sweet-yet-savory kick we keep repeating.
 

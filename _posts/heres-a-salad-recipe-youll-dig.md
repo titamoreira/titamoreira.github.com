@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Blogging about home & stuff
-date: 2019-04-30 00:00:00
-image: /uploads/post-ii-cover.png
+title: Plant Rustique Recipe
+date: 2019-05-01 00:00:00
+image:
 cover: /uploads/post-ii-cover.png
 tags:
   - Home
@@ -16,17 +16,17 @@ At home we like to project ourselves as top Chefs. Nothing less. Maybe we miss a
 
 Dish rullers: eggplants and sweet potato. And thanks to our killer combo of sweet potatos and *sriracha sauce*, this easy dish has an light yet yumi sweet-yet-savory kick we keep repeating.
 
-Just some knowledge on what you're about to eat: sweet potatoes are great allies to our bodies. In fact, they are rich in fiber, full of nutrients, and contain a variety of vitamins and minerals, including iron, calcium, selenium, and vitamins B and C. The vegetable is also high in beta-carotene, an antioxidant which promotes healthy skin and eyes.&nbsp;
+Just some knowledge on what you're about to eat: sweet potatoes are great allies to our bodies. In fact, they are rich in fiber, full of nutrients, and contain a variety of vitamins and minerals, including iron, calcium, selenium, and vitamins B and C. The vegetable is also high in beta-carotene, an antioxidant which promotes healthy skin and eyes. 
 
 > ### **Plant Rustique Recipe**
 >
-> **Serving Size:** 2 pax (3 servings) \|&nbsp;***Prep Time:&nbsp;****10 min*
+> **Serving Size:** 2 pax (3 servings) \| ***Prep Time: ****10 min*
 >
 >
-> ***Cook Time:** 40 min \|&nbsp;***Total Time:** 50 min
+> ***Cook Time:\*\* 40 min \| ***Total Time:\*\* 50 min
 >
 >
-> #### &nbsp;
+> ####  
 >
 > #### Ingredients
 >
@@ -38,7 +38,7 @@ Just some knowledge on what you're about to eat: sweet potatoes are great allies
 > 2 tablespoons extra virgin olive oil
 >
 >
-> 1-2 teaspoons&nbsp;*sriracha sauce (or, according to your taste, bearing in mind that is a (light) spicy sauce)*
+> 1-2 teaspoons *sriracha sauce (or, according to your taste, bearing in mind that is a (light) spicy sauce)*
 >
 >
 > ###### For the ratatouille
@@ -62,7 +62,7 @@ Just some knowledge on what you're about to eat: sweet potatoes are great allies
 >
 > #### Preparation
 >
-> 1\. Preheat oven to 200&deg; C.
+> 1\. Preheat oven to 200° C.
 >
 >
 > 2\. After cleaning the sweet potatoes, the tomato and the eggplant, dry them off and cut them in half, then in quarters, then into small triangles.
@@ -89,7 +89,7 @@ Just some knowledge on what you're about to eat: sweet potatoes are great allies
 > 8\. When with the eggplant assumed the desirable crispy aspect, join the tomato and let them for 3-4 minutes.
 >
 >
-> 10\. Raise oven temperature to 250&deg; at the 20-minute mark and let them bake for another 10-15 minutes or until lightly browned and crispy, flipping halfway through if necessary.
+> 10\. Raise oven temperature to 250° at the 20-minute mark and let them bake for another 10-15 minutes or until lightly browned and crispy, flipping halfway through if necessary.
 >
 >
 > 11\. Back at the pans: join the boiled green peas to the eggplant&tomato pan and with it, the tablespoon of the water.
@@ -104,9 +104,9 @@ Just some knowledge on what you're about to eat: sweet potatoes are great allies
 > 14\. Join the roasted sweet potatoes & the ratatouille in the bowl and finish with some parmigiano reggiano on top.
 >
 >
-> 15\. Voil&agrave;\! Finnito\! enjoy
+> 15\. Voilà\! Finnito\! enjoy
 
-#### &nbsp;
+####  
 
 Love,
 

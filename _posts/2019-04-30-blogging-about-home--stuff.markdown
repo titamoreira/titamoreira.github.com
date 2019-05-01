@@ -30,7 +30,9 @@ The thing is (and this is my message to the world) it’s not that. It’s not c
 
 I find love and making memories from love the no. 1 therapy. For me, love and memories come through having my space, my place, my home. It also comes through planning trips that will make me happy, knowing new places abroad and making the best of them. It comes through eating well, or at least trying to, but definitely by cooking my food and learning recipes that make me feel good inside and out.
 
-![](/uploads/postii-ii.png)And what does it mean to have love and confidence if not to share it? The best part of feeling both is the influence you give so others feel it too, and sharing what I know is powerful with the ones I love and care about gives me happiness. So why not share it with you too?
+![](/uploads/postii-ii.png)
+
+And what does it mean to have love and confidence if not to share it? The best part of feeling both is the influence you give so others feel it too, and sharing what I know is powerful with the ones I love and care about gives me happiness. So why not share it with you too?
 
 Love,
 

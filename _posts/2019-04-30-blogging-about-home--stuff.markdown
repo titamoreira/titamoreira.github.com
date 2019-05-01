@@ -36,4 +36,4 @@ Love,
 
 Valentina
 
-![](/uploads/postii-i-1.png)![](/uploads/postii.png)
+![](/uploads/postii-1.png)

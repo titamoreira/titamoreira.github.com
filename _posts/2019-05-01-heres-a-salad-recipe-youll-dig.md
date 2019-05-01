@@ -24,7 +24,7 @@ Just some knowledge on what you're about to eat: sweet potatoes are great allies
 >
 > **Serving Size:** 2 pax (3 servings) | **Prep Time:** _10 min_
 >
-> **Cook Time:** 40 min                                     | **Total Time:** 50 min
+> **Cook Time:** 40 min                                 | **Total Time:** 50 min
 >
 > #### **Ingredients**
 >

@@ -35,3 +35,7 @@ And what does it mean to have love and confidence if not to share it? The best p
 Love,
 
 Valentina
+
+![](/uploads/canning-cottage-by-bicker-design.jpeg)![](/uploads/and-the-melbourne-home-somehow-still-feels-relaxed-and-airy.jpeg)![](/uploads/this-years-australian-interior-design-awards.png)
+
+![](/uploads/australian.png)

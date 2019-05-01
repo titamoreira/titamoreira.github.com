@@ -18,7 +18,7 @@ You know, there was a time, and for a long time, that going home was painful. An
 
 That day luckily arrived and with it the feeling of paying the debts to my old self, came too. So much empowered by love and confidence, I started building my own sanctuary and with that I found something as a hobby that later on I found myself passionate about: **spending rivers of money on decoration\!**
 
-I’m just kidding, love. It’s not rivers, just some\! I find the balance the key of everything.
+I’m just kidding, love. It’s not rivers, just some\! I find balance the key of everything.
 
 But for my surprise, when I shared within my inner circle that I was starting this decoration project, the no. 1 comment that stick with me the most was:
 
